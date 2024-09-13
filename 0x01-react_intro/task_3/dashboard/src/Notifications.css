@@ -1,0 +1,23 @@
+:root {
+	--color-brand: #e01d3f;
+  }
+  
+  .Notifications {
+	position: relative;
+	border: 1px dotted var(--color-brand);
+	padding: 10px;
+	
+  }
+  
+  ul {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  li[data-priority="default"] {
+	color: blue;
+  }
+  
+  li[data-priority="urgent"] {
+	color: red;
+  }
