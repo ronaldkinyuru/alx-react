@@ -1,0 +1,17 @@
+/* Position the counter on the right of the button and in bold */
+#count {
+	display: inline-block;
+	margin-left: 20px;
+	font-weight: bold;
+  }
+  
+  /* Style for the logo at the top */
+  #logo {
+	width: 200px;
+	height: 200px;
+	background-image: url('../assets/holberton-logo.jpg');
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+  }
+  
